@@ -1,6 +1,8 @@
 # Display both conda environment and git branch in a zsh terminal prompt
 
-<img width="600" src="./conda_env_git_branch_terminal.png">
+<p align="center">
+<img width="500" src="./conda_env_git_branch_terminal.png">
+</p>
 
 ### 1. Disable automatic modification of the command prompt (PS1) by conda
 With conda already installed, run the following command in the termial:
