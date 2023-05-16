@@ -1,4 +1,4 @@
-# Display conda environment and git branch in zsh terminal prompt
+## Display conda environment and git branch in zsh terminal prompt
 
 <p align="center">
 <img width="450" src="./conda_env_git_branch_terminal.png">
