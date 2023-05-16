@@ -1,7 +1,7 @@
-# Display both conda environment and git branch in a zsh terminal prompt
+# Display conda environment and git branch in zsh terminal prompt
 
 <p align="center">
-<img width="500" src="./conda_env_git_branch_terminal.png">
+<img width="450" src="./conda_env_git_branch_terminal.png">
 </p>
 
 ### 1. Disable automatic modification of the command prompt (PS1) by conda
@@ -58,10 +58,10 @@ PROMPT='${COLOR_CON}$CONDA_ENV${COLOR_USR}%n ${COLOR_DIR}%1~ ${COLOR_GIT}$(parse
 In the terminal, run `source ~/.zshrc`
 
 ### 4. References
-[how to modify the anaconda environment prompt in zsh?](https://unix.stackexchange.com/questions/656045/how-to-modify-the-anaconda-environment-prompt-in-zsh)
+Original code to modify conda env prompt display settings: [how to modify the anaconda environment prompt in zsh?](https://unix.stackexchange.com/questions/656045/how-to-modify-the-anaconda-environment-prompt-in-zsh)
 
-[Add Git Branch Name to Terminal Prompt](https://gist.github.com/reinvanoyen/05bcfe95ca9cb5041a4eafd29309ff29)
+Original code to display git branch: [Add Git Branch Name to Terminal Prompt](https://gist.github.com/reinvanoyen/05bcfe95ca9cb5041a4eafd29309ff29)
 
-[How to Customize Zsh Command Prompt Text](https://youtu.be/p4h-5B8k2NY) (video)
+Great video on how to customize the prompt: [How to Customize Zsh Command Prompt Text](https://youtu.be/p4h-5B8k2NY) (video)
 
-[ANSI Color Palette Example](https://kui.github.io/ansi_color_palette/)
+Interactive tool to select prompt colors: [ANSI Color Palette Example](https://kui.github.io/ansi_color_palette/)
