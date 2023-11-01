@@ -10,7 +10,7 @@ With conda already installed, run the following command in the termial:
 conda config --set changeps1 false
 ```
 
-or add simply add `changeps1 false` to the `~\.condarc` file. This will disable the automatic modification of the prompt by conda.
+or add simply add `changeps1: false` to the `~\.condarc` file. This will disable the automatic modification of the prompt by conda.
 
 
 ### 2. Modify prompt to display conda env and branch
